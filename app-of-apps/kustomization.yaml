@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:
+  rhtap/gitops: rhdhpai802-final2
+  janus-idp.io/tekton: rhdhpai802-final2
+  backstage.io/kubernetes-id: rhdhpai802-final2
+  backstage.io/kubernetes-namespace: rhdhpai802-final2
+  app.kubernetes.io/part-of: rhdhpai802-final2
+resources:
+  - application-dev.yaml

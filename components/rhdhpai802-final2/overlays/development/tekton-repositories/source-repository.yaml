@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rhdhpai802-final2-repository
+spec:
+  url: https://github.com/rhdh-JslYoon-org/rhdhpai802-final2

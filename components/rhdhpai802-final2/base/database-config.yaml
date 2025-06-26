@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rhdhpai802-final2-database-config
+data:
+  VECTORDB_HOST: "rhdhpai802-final2-database"
+  VECTORDB_PORT: ""
